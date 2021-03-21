@@ -25,9 +25,9 @@ class MainActivity : AppCompatActivity() {
         // add your code here after clicking buuton
         val userdob=Integer.parseInt(edDOB.text.toString())
         val currentyear= Calendar.getInstance().get(Calendar.YEAR)
-        val userageinyears= currentyear-userdob
-        tvShowAge.text="Your age is $userageinyears Years"
-        Log.d("Logsme", "Your age is $userageinyears Years")
+        val userageinyear= currentyear-userdob
+        tvShowAge.text="Your age is $userageinyear Years"
+        Log.d("Logsme", "Your age is $userageinyear Years")
     }
 
     fun buAgeclick(view: View) {}
